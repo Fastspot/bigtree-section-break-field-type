@@ -11,5 +11,5 @@
 		If you intend to allow HTML tags you will want to run htmlspecialchars in your drawing file on your value and leave it off in the process file.
 	*/
 
-	$field["output"] = htmlspecialchars($field["input"]);
+	$field["ignore"] = true;
 ?>
