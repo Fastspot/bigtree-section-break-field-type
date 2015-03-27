@@ -1,5 +1,5 @@
-Section Break Type
-==================
+Section Break Field Type
+========================
 
 This field type implements a simple section break to help divide up forms into different sections.
 If a title is provided to the field a section title is drawn below the section divider.
