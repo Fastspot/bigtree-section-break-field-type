@@ -1,8 +1,8 @@
 {
     "type": "extension",
     "id": "com.fastspot.section-break-field-type",
-    "version": "1.0",
-    "revision": 1,
+    "version": "1.0.1",
+    "revision": 3,
     "compatibility": "4.2+",
     "title": "Section Break",
     "description": "A simple section break field that helps you organize your forms.",
@@ -41,5 +41,6 @@
             }
         ],
         "tables": []
-    }
+    },
+    "sql_revisions": []
 }

@@ -1,10 +1,9 @@
-<?
+<?php
 	// There's already a break for callout-esque types
-	if ($bigtree["last_resource_type"] != "callouts") {
+	if (!empty($bigtree["last_resource_type"]) && $bigtree["last_resource_type"] != "callouts") {
 		echo '<hr />';
 	}
 
-	if ($field["title"]) {
+	if (!empty($field["title"])) {
 		echo '<h3>'.$field["title"].'</h3><br />';
 	}
-?>
